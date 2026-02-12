@@ -966,7 +966,7 @@
                     <div class="profile-image-container">
                         <div class="profile-image real-photo">
                             <!-- Replace this with your actual profile picture -->
-                            <img src="minal.jpg" alt="MD MINAL HASAN RAJ MIM" onerror="this.style.display='none'; this.parentElement.classList.remove('real-photo'); this.parentElement.innerHTML='<i class=\"fas fa-user-shield\"></i>';">
+                            <img src="Minalprofessionalpic.jpg" alt="MD MINAL HASAN RAJ MIM" onerror="this.style.display='none'; this.parentElement.classList.remove('real-photo'); this.parentElement.innerHTML='<i class=\"fas fa-user-shield\"></i>';">
                         </div>
                     </div>
                     <div class="profile-title">
@@ -1445,9 +1445,12 @@
             </div>
             
             <!-- Download Button -->
-            <div class="download-btn">
-                <a href="#" class="btn" id="downloadBtn"><i class="fas fa-download"></i> Download Portfolio PDF</a>
-            </div>
+           <div class="download-btn">
+    <a href="Download Portfolio .pdf" class="btn" download>
+        <i class="fas fa-download"></i> Download CV
+    </a>
+</div>
+
         </div>
     </section>
 
@@ -1500,10 +1503,10 @@
         });
         
         // Download button functionality
-        document.getElementById('downloadBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('Portfolio PDF download would start. For now, this is a demo feature.');
-        });
+        // document.getElementById('downloadBtn').addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     alert('Portfolio PDF download would start. For now, this is a demo feature.');
+        // });
         
         // Add animation to skill bars on scroll
         const observerOptions = {
